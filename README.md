@@ -27,39 +27,39 @@ You can check the remotes are set correctly with:
 git remote -v
 
 It should print something like this:
-origin  https://github.com/yourname/resources.git (fetch)
-origin  https://github.com/yourname/resources.git (push)
-upstream        https://github.com/GlasgowCoderCollective/resources.git (fetch)
-upstream        https://github.com/GlasgowCoderCollective/resources.git (push)
+origin https://github.com/yourname/resources.git (fetch)
+origin https://github.com/yourname/resources.git (push)
+upstream https://github.com/GlasgowCoderCollective/resources.git (fetch)
+upstream https://github.com/GlasgowCoderCollective/resources.git (push)
 
 ## Check for changes
 
- You should check regularly to see if there's any changes in the original code by fetching them
- git fetch upstream
+You should check regularly to see if there's any changes in the original code by fetching them
+git fetch upstream
 
- Checkout your fork's local master branch
- git checkout master
+Checkout your fork's local master branch
+git checkout master
 
- Merge any changes from upstream/master to your local master branch.
- git merge upstream/master
+Merge any changes from upstream/master to your local master branch.
+git merge upstream/master
 
 ## In your code editor
 
- Make changes in the index.html file adding your link to some helpful resource, copying the entire links div and editing to include the url and some descriptor.
- Save any changes
+Make changes in the index.html file adding your link to some helpful resource, copying the entire links div and editing to include the url and some descriptor.
+Save any changes
 
- ## Back in command line:
+## Back in command line:
 
- ## Add and commit
+## Add and commit
 
- git add index.html
+git add index.html
 
- Now make a commit
- git commit -m "add my link"
+Now make a commit
+git commit -m "add my link"
 
 
- At this point you've got your changes on your local copy of the code (on your computer) and you've told git about it by adding and committing.
- Next you want to push the changes up to your remote copy (your fork on github) 
+At this point you've got your changes on your local copy of the code (on your computer) and you've told git about it by adding and committing.
+Next you want to push the changes up to your remote copy (your fork on github)
 
 It's a good idea to redo the check for changes section to include anything and avoid problems
 
@@ -67,9 +67,9 @@ It's a good idea to redo the check for changes section to include anything and a
 
 git push origin master
 
-your code should now be pushed to your remote.  
+your code should now be pushed to your remote.
 
-## To do a pull request 
+## To do a pull request
 
 In github in your fork, refresh if it was still open
 
