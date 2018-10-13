@@ -14,34 +14,37 @@ Navigate to your fork of the project
 Select the dropdown on the green clone or download button and copy the url
 
 In command line type the url:
-git clone https://github.com/yourname/resources.git
+`git clone https://github.com/yourname/resources.git`
 
 Change directory into your project:
-cd resources
+`cd resources`
 
 ## Set an upstream pointing to the original project
 
-git add upstream https://github.com/GlasgowCoderCollective/resources.git
+`git add upstream https://github.com/GlasgowCoderCollective/resources.git`
 
 You can check the remotes are set correctly with:
-git remote -v
+`git remote -v`
 
 It should print something like this:
+
+```output
 origin https://github.com/yourname/resources.git (fetch)
 origin https://github.com/yourname/resources.git (push)
 upstream https://github.com/GlasgowCoderCollective/resources.git (fetch)
 upstream https://github.com/GlasgowCoderCollective/resources.git (push)
+```
 
 ## Check for changes
 
 You should check regularly to see if there's any changes in the original code by fetching them
-git fetch upstream
+`git fetch upstream`
 
 Checkout your fork's local master branch
-git checkout master
+`git checkout master`
 
 Merge any changes from upstream/master to your local master branch.
-git merge upstream/master
+`git merge upstream/master`
 
 ## In your code editor
 
@@ -52,11 +55,10 @@ Save any changes
 
 ## Add and commit
 
-git add index.html
+`git add index.html`
 
 Now make a commit
-git commit -m "add my link"
-
+`git commit -m "add my link"`
 
 At this point you've got your changes on your local copy of the code (on your computer) and you've told git about it by adding and committing.
 Next you want to push the changes up to your remote copy (your fork on github)
@@ -65,7 +67,7 @@ It's a good idea to redo the check for changes section to include anything and a
 
 ## pushing to your remote
 
-git push origin master
+`git push origin master`
 
 your code should now be pushed to your remote.
 
