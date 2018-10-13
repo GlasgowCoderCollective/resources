@@ -51,7 +51,7 @@ Merge any changes from upstream/master to your local master branch.
 Make changes in the index.html file adding your link to some helpful resource, copying the entire links div and editing to include the url and some descriptor.
 Save any changes
 
-## Back in command line:
+## Back in command line
 
 ## Add and commit
 
