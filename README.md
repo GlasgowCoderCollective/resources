@@ -13,19 +13,15 @@ You should now have a copy under your name ie yourname/resources
 Navigate to your fork of the project
 Select the dropdown on the green clone or download button and copy the url
 
-
 In command line type the url:
 git clone https://github.com/yourname/resources.git
-
 
 Change directory into your project:
 cd resources
 
-
 ## Set an upstream pointing to the original project
 
 git add upstream https://github.com/GlasgowCoderCollective/resources.git
-
 
 You can check the remotes are set correctly with:
 git remote -v
@@ -44,7 +40,6 @@ upstream        https://github.com/GlasgowCoderCollective/resources.git (push)
  Checkout your fork's local master branch
  git checkout master
 
-
  Merge any changes from upstream/master to your local master branch.
  git merge upstream/master
 
@@ -53,12 +48,10 @@ upstream        https://github.com/GlasgowCoderCollective/resources.git (push)
  Make changes in the index.html file adding your link to some helpful resource, copying the entire links div and editing to include the url and some descriptor.
  Save any changes
 
-
  ## Back in command line:
- 
+
  ## Add and commit
- 
- 
+
  git add index.html
 
  Now make a commit
@@ -81,9 +74,3 @@ your code should now be pushed to your remote.
 In github in your fork, refresh if it was still open
 
 Select the "new pull request" button
-
-
-
-
-
-
