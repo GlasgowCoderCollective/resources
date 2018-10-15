@@ -1,5 +1,6 @@
 # resources
 
+[The current web page we will be adding to](https://glasgowcodercollective.github.io/resources/)  
 I'm borrowing a lot from github docs for this writeup
 
 ## Fork the repo
