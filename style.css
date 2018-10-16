@@ -3,3 +3,29 @@
     margin:20px;
     background:rgb(32, 178, 170);
 }
+
+/**
+ * @ REMOVE STYLE FROM <a></a>
+ *
+**/
+a {
+	text-decoration: none; /* Remove underline */
+}
+.links a {
+	color: #ffffff; /* Color */
+}
+.links a:hover {
+	text-decoration: underline; /* Added underline on Hover */
+}
+
+/**
+ * @ BOX: ANIM ON HOVER
+ *
+ *
+**/
+.links {
+	transition: transform .2s; /* Anim */
+}
+.links:hover {
+	transform: scale(1.01); /* Zoom effect */
+}
