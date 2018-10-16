@@ -24,7 +24,7 @@ Change directory into your project:
 
 ## Set an upstream pointing to the original project
 
-`git add upstream https://github.com/GlasgowCoderCollective/resources.git`
+`git remote add upstream https://github.com/GlasgowCoderCollective/resources.git`
 
 You can check the remotes are set correctly with:
 `git remote -v`
