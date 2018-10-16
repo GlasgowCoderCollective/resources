@@ -3,3 +3,11 @@
     margin:20px;
     background:rgb(32, 178, 170);
 }
+a
+{
+text-decoration:none;
+}
+A:hover{
+
+color:white;
+}
