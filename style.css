@@ -1,5 +1,27 @@
+h1 {
+	text-align:center;
+	font-family:Verdana;
+	color:#0886d8;
+}
+
+h3 {
+	text-align:center;
+	font-family:Verdana;
+	color:#5fb0e5;
+}
+
 .links{
     padding:10px;
     margin:20px;
-    background:rgb(32, 178, 170);
+    background:#81b0c4;
+}
+
+a {
+	text-decoration: none;
+	color:#cbd7dd;
+}
+
+a:hover {
+	text-decoration: none;
+	color:white;
 }
