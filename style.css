@@ -25,3 +25,11 @@ a:hover {
 	text-decoration: none;
 	color:white;
 }
+
+footer {
+	text-align: center;
+}
+
+.recommended:hover {
+	color:#5fb0e5;
+}
