@@ -1,3 +1,4 @@
+# Resources repository
 This repository is full of helpful links for people who are just learning to code! Below you'll find the instructions on how to contribute to the list of helpful links. If this is your first time coding or you're a veteran who wants to learn something new or just explore, this is the place for you. This is a beginner-friendly resource!
 
 # resources
@@ -17,37 +18,49 @@ Navigate to your fork of the project
 Select the dropdown on the green clone or download button and copy the url
 
 In command line type the url:
-`git clone https://github.com/yourname/resources.git`
+```bash
+git clone https://github.com/yourname/resources.git
+```   
 
 Change directory into your project:
-`cd resources`
+```bash
+cd resources
+```
 
 ## Set an upstream pointing to the original project
-
-`git add upstream https://github.com/GlasgowCoderCollective/resources.git`
+```bash
+git add upstream https://github.com/GlasgowCoderCollective/resources.git
+```
 
 You can check the remotes are set correctly with:
-`git remote -v`
-
+```bash
+git remote -v
+```
 It should print something like this:
 
-```output
+```bash
 origin https://github.com/yourname/resources.git (fetch)
 origin https://github.com/yourname/resources.git (push)
 upstream https://github.com/GlasgowCoderCollective/resources.git (fetch)
 upstream https://github.com/GlasgowCoderCollective/resources.git (push)
-```
+```   
 
 ## Check for changes
 
 You should check regularly to see if there's any changes in the original code by fetching them
-`git fetch upstream`
+```bash
+ git fetch upstream
+```
 
 Checkout your fork's local master branch
-`git checkout master`
+```bash
+ git checkout master
+```
 
 Merge any changes from upstream/master to your local master branch.
-`git merge upstream/master`
+```bash
+ git merge upstream/master
+```
 
 ## In your code editor
 
@@ -57,11 +70,14 @@ Save any changes
 ## Back in command line
 
 ## Add and commit
-
-`git add index.html`
+```bash
+ git add index.html
+```
 
 Now make a commit
-`git commit -m "add my link"`
+```bash
+git commit -m "add my link"
+```
 
 At this point you've got your changes on your local copy of the code (on your computer) and you've told git about it by adding and committing.
 Next you want to push the changes up to your remote copy (your fork on github)
@@ -70,8 +86,9 @@ It's a good idea to redo the check for changes section to include anything and a
 
 ## pushing to your remote
 
-`git push origin master`
-
+```bash
+ git push origin master
+```
 your code should now be pushed to your remote.
 
 ## To do a pull request
