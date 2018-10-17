@@ -79,3 +79,10 @@ your code should now be pushed to your remote.
 In github in your fork, refresh if it was still open
 
 Select the "new pull request" button
+## To push a report
+Create a new repository on GitHub. ...
+Open TerminalTerminalGit Bash.
+Change the current working directory to your local project.
+Initialize the local directory as a Git repository. ...
+Add the files in your new local repository. ...
+Commit the files that you've staged in your local repository.
