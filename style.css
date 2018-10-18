@@ -8,3 +8,18 @@ a {
 	color: black;
 	text-decoration: none;
 }
+
+.links p {
+    margin-left:0.5em;
+}
+
+.links p a {
+    margin-left:-0.5em;
+    font-weight:bold;
+}
+
+.links p a.recommended {
+    font-weight:normal;
+    margin-left:0;
+    font-style: italic;
+}
