@@ -3,8 +3,17 @@
     margin:20px;
     background:rgb(32, 178, 170);
 }
+h1{
+  padding-top: 2vh;
+  text-align: center;
+}
 
+h3{
+
+  text-align: center;
+}
 a {
 	color: black;
 	text-decoration: none;
+  font-weight:  bold;
 }
