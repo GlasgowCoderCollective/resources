@@ -1,6 +1,6 @@
 This repository is full of helpful links for people who are just learning to code! Below you'll find the instructions on how to contribute to the list of helpful links. If this is your first time coding or you're a veteran who wants to learn something new or just explore, this is the place for you. This is a beginner-friendly resource!
 
-# resources
+# Resources
 
 [The current web page we will be adding to](https://glasgowcodercollective.github.io/resources/)  
 I'm borrowing a lot from github docs for this writeup
@@ -68,7 +68,7 @@ Next you want to push the changes up to your remote copy (your fork on github)
 
 It's a good idea to redo the check for changes section to include anything and avoid problems
 
-## pushing to your remote
+## Pushing to your remote
 
 `git push origin master`
 
