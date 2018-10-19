@@ -5,6 +5,13 @@
 }
 
 a {
+    display: inline-block;
 	color: black;
-	text-decoration: none;
+    text-decoration: none;
+    transition: box-shadow 0.3s ease;
+}
+
+a:focus {
+    outline: none;
+    box-shadow:  0 0 0px 4px rgb(0,0,0);
 }
