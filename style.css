@@ -1,7 +1,20 @@
 .links{
     padding:10px;
+    padding-left: 15px;
     margin:20px;
-    background:rgb(32, 178, 170);
+    font-size: 20px;
+    background-color: rgb(32, 178, 170);
+    box-shadow: 1px 1px 3px #888888;
+}
+
+.links > p:nth-child(1){
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+h1, h3{
+  margin-left: 20px;
 }
 
 a {
