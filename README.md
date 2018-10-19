@@ -1,4 +1,5 @@
-This repository is full of helpful links for people who are just learning to code! Below you'll find the instructions on how to contribute to the list of helpful links. If this is your first time coding or you're a veteran who wants to learn something new or just explore, this is the place for you. This is a beginner-friendly resource!
+This repository is full of helpful links for people who are just learning to code! Below you'll find the instructions on how to contribute to the list of helpful links. 
+If this is your first time coding or you're a veteran who wants to learn something new or just explore, this is the place for you. Dig in and keep adding more resources you find helful during your open source voyage. Happy coding!
 
 # resources
 
