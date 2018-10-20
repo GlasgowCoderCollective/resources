@@ -1,5 +1,40 @@
-.links{
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+}
+
+h1, h3 {
+    margin:20px; 
+}
+
+a {
+	color: white;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-variant: small-caps;
+	font:italic bold 15px/15px Georgia, serif
+}
+
+.links {
     padding:10px;
     margin:20px;
     background:rgb(32, 178, 170);
+
+.links a:hover {
+	text-decoration: underline; /* Added underline on Hover */
 }
+
+/**
+ * @ BOX: ANIM ON HOVER
+ *
+ *
+**/
+  
+.links {
+	transition: transform .2s; /* Anim */
+}
+  
+.links:hover {
+	transform: scale(1.01); /* Zoom effect */
+}
+    
