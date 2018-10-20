@@ -32,4 +32,10 @@ footer {
 
 .recommended:hover {
 	color:#5fb0e5;
+  background:rgb(32, 178, 170);
+}
+
+a {
+	color: black;
+	text-decoration: none;
 }
