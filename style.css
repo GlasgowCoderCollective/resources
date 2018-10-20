@@ -1,7 +1,16 @@
-.links{
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h3 {
+    margin:20px; 
+}
+
+.links {
     padding:10px;
     margin:20px;
-    background:rgb(0,0,0);
+    background:rgb(32, 178, 170);
+    border-radius: 5px;
 }
 
 a {
