@@ -1,5 +1,25 @@
-.links{
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h3 {
+    margin:20px; 
+}
+
+.links {
     padding:10px;
     margin:20px;
     background:rgb(32, 178, 170);
+    border-radius: 5px;
+}
+
+a {
+	color: white;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-variant: small-caps;
+	font:italic bold 15px/15px Georgia, serif
+}
+body {
+    color: white;
 }
