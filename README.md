@@ -19,6 +19,8 @@ Select the dropdown on the green clone or download button and copy the url
 In command line type the url:
 `git clone https://github.com/yourname/resources.git`
 
+cloning the repository will scan all the files in the repository and add it to your local storage.
+
 Change directory into your project:
 `cd resources`
 
@@ -60,8 +62,12 @@ Save any changes
 
 `git add index.html`
 
+Git add command adds files to the staging area using necessary options.
+
 Now make a commit
 `git commit -m "add my link"`
+
+ Git commit command add the files to the local repository of git.
 
 At this point you've got your changes on your local copy of the code (on your computer) and you've told git about it by adding and committing.
 Next you want to push the changes up to your remote copy (your fork on github)
@@ -72,10 +78,12 @@ It's a good idea to redo the check for changes section to include anything and a
 
 `git push origin master`
 
-your code should now be pushed to your remote.
+your code should now be pushed to your remote server of master branch
 
 ## To do a pull request
 
-In github in your fork, refresh if it was still open
+In github in your forked repository, refresh t if it was still open
 
 Select the "new pull request" button
+
+and send the pull request to the repository with a message written as a suggestion of changes made to the repo.
