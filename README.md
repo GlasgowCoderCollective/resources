@@ -1,35 +1,41 @@
-This repository is full of helpful links for people who are just learning to code! Below you'll find the instructions on how to contribute to the list of helpful links. If this is your first time coding or you're a veteran who wants to learn something new or just explore, this is the place for you. This is a beginner-friendly resource!
+Hi there, fellow coder! This is a beginner-friendly resource for people like you, and you, and you (no, not you Steve)!
 
-# resources
+This repository is full of helpful links for people who are just learning to code! 
+
+Below you'll find everythig you need on how to contribute to this very same list. 
+
+Either if this is your first time coding, or you're a veteran keyboard ninja who just wants to explore and help out, this is the place for you.
+
+# Resources
 
 [The current web page we will be adding to](https://glasgowcodercollective.github.io/resources/)  
-I'm borrowing a lot from github docs for this writeup
+I'm borrowing a lot from github docs for this writeup.
 
 ## Fork the repo
 
-Fork this repository with the Fork button on top right of screen
+Fork this repository with the Fork button on the top right of this very same page.
 
-You should now have a copy under your name ie yourname/resources
+You should now have a copy under your name, something like <i>yourname/resources</i>
 
 ## Create a local clone of your fork
 
-Navigate to your fork of the project
-Select the dropdown on the green clone or download button and copy the url
+Navigate to your own fork of this project.
+Select the green "Clone or download" button, and on the dropdown that shows up copy the url that ends with <i>.git</i>.
 
-In command line type the url:
+On your terminal, type the following command:
 `git clone https://github.com/yourname/resources.git`
 
-Change directory into your project:
+Now, change the directory to your project:
 `cd resources`
 
 ## Set an upstream pointing to the original project
 
-`git add upstream https://github.com/GlasgowCoderCollective/resources.git`
+`git remote add upstream https://github.com/GlasgowCoderCollective/resources.git`
 
-You can check the remotes are set correctly with:
+You can check if the remotes are set correctly with:
 `git remote -v`
 
-It should print something like this:
+It should print out something like this:
 
 ```output
 origin https://github.com/yourname/resources.git (fetch)
@@ -68,7 +74,7 @@ Next you want to push the changes up to your remote copy (your fork on github)
 
 It's a good idea to redo the check for changes section to include anything and avoid problems
 
-## pushing to your remote
+## Pushing to your remote
 
 `git push origin master`
 
