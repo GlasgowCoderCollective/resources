@@ -9,8 +9,7 @@ h1, h3 {
 
 a {
 	color: white;
-	text-decoration: underline;
-	text-transform: uppercase;
+	text-decoration: none;
 	font-variant: small-caps;
 	font:italic bold 15px/15px Georgia, serif
   cursor: auto;
@@ -20,6 +19,21 @@ a {
     padding:10px;
     margin:20px;
     background:rgb(32, 178, 170);
+}
+
+.links p {
+    margin-left:0.5em;
+}
+
+.links p a {
+    margin-left:-0.5em;
+    font-weight:bold;
+}
+
+.links p a.recommended {
+    font-weight:normal;
+    margin-left:0;
+    font-style: italic;
 }
 
 .links a:hover {
