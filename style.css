@@ -1,23 +1,44 @@
-.links{
-    padding:10px;
-    padding-left: 15px;
-    margin:20px;
-    font-size: 20px;
-    background-color: rgb(32, 178, 170);
-    box-shadow: 1px 1px 3px #888888;
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+  /*color: white;*/
 }
 
-.links > p:nth-child(1){
-  font-size: 30px;
-  font-weight: bold;
-}
-
-
-h1, h3{
+h1,h3 {
+	margin: 1.25rem;
   margin-left: 20px;
 }
 
 a {
-	color: black;
+	color: white;
 	text-decoration: none;
+}
+
+.links{
+    padding: 0.625rem;
+    padding-left: 15px;
+    margin: 1.25rem;
+    font-size: 20px;
+    background-color: rgb(32, 178, 170);
+    box-shadow: 1px 1px 3px #888888;
+    transition: transform .2s; /* Anim */
+}
+
+.links p {
+    margin-left:0.5em;
+}
+
+.links p a {
+    margin-left:-0.5em;
+    font-weight:bold;
+}
+
+.links p a.recommended {
+    font-weight:normal;
+    margin-left:0;
+    font-style: italic;
+}
+
+.links a:hover {
+	text-decoration: underline;
+  transform: scale(1.01); /* Zoom effect */
 }
