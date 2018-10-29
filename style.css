@@ -1,6 +1,6 @@
 body {
-	font-family: 'Source Sans Pro', sans-serif;
-	color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+  /*color: white;*/
 }
 
 h1,
@@ -10,8 +10,7 @@ h3 {
 
 a {
 	color: white;
-	text-decoration: underline;
-	text-transform: uppercase;
+	text-decoration: none;
 	font-variant: small-caps;
 	font: italic bold 0.9375rem/0.9375rem Georgia, serif;
 	cursor: auto;
@@ -21,6 +20,21 @@ a {
 	padding: 0.625rem;
 	margin: 1.25rem;
 	background: rgb(32, 178, 170);
+}
+
+.links p {
+    margin-left:0.5em;
+}
+
+.links p a {
+    margin-left:-0.5em;
+    font-weight:bold;
+}
+
+.links p a.recommended {
+    font-weight:normal;
+    margin-left:0;
+    font-style: italic;
 }
 
 .links a:hover {

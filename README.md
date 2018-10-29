@@ -74,7 +74,7 @@ Next you want to push the changes up to your remote copy (your fork on github)
 
 It's a good idea to redo the check for changes section to include anything and avoid problems
 
-## pushing to your remote
+## Pushing to your remote
 
 `git push origin master`
 
