@@ -3,23 +3,24 @@ body {
   /*color: white;*/
 }
 
-h1,
-h3 {
+h1,h3 {
 	margin: 1.25rem;
+  margin-left: 20px;
 }
 
 a {
 	color: white;
 	text-decoration: none;
-	font-variant: small-caps;
-	font: italic bold 0.9375rem/0.9375rem Georgia, serif;
-	cursor: auto;
 }
 
-.links {
-	padding: 0.625rem;
-	margin: 1.25rem;
-	background: rgb(32, 178, 170);
+.links{
+    padding: 0.625rem;
+    padding-left: 15px;
+    margin: 1.25rem;
+    font-size: 20px;
+    background-color: rgb(32, 178, 170);
+    box-shadow: 1px 1px 3px #888888;
+    transition: transform .2s; /* Anim */
 }
 
 .links p {
@@ -39,20 +40,5 @@ a {
 
 .links a:hover {
 	text-decoration: underline;
-}
-
-/**
- * @ BOX: ANIM ON HOVER
- *
- *
-**/
-
-.links {
-	transition: transform .2s;
-	/* Anim */
-}
-
-.links:hover {
-	transform: scale(1.01);
-	/* Zoom effect */
+  transform: scale(1.01); /* Zoom effect */
 }
