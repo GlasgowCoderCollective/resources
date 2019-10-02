@@ -2,7 +2,7 @@ Hi there, fellow coder! This is a beginner-friendly resource for people like you
 
 This repository is full of helpful links for people who are just learning to code! 
 
-Below you'll find everything you need on how to contribute to this very same list. 
+Below you'll find everythig you need on how to contribute to this very same list. 
 
 Either if this is your first time coding, or you're a veteran keyboard ninja who just wants to explore and help out, this is the place for you.
 
