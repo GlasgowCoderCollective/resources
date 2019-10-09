@@ -14,6 +14,8 @@ a {
 }
 
 .links{
+    width: 40%;
+    float: right;
     padding: 0.625rem;
     padding-left: 15px;
     margin: 1.25rem;
