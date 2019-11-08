@@ -6,6 +6,7 @@ body {
 h1,h3 {
 	margin: 1.25rem;
   margin-left: 20px;
+  text-align: center;
 }
 
 header>a{
@@ -13,7 +14,7 @@ header>a{
     color:black;
 }
 a {
-	color: white;
+	color: rgb(0, 0, 0);
 	text-decoration: none;
 }
 
@@ -22,7 +23,7 @@ a {
     padding-left: 15px;
     margin: 1.25rem;
     font-size: 20px;
-    background-color: rgb(32, 178, 170);
+    background-color: rgb(1, 255, 234);
     box-shadow: 1px 1px 3px #888888;
     transition: transform .2s; /* Anim */
 }
