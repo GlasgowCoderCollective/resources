@@ -17,6 +17,10 @@ a {
 	text-decoration: none;
 }
 
+header a {
+	color: #0398fc;
+}
+
 .links{
     padding: 0.625rem;
     padding-left: 15px;
